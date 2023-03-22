@@ -1,0 +1,151 @@
+body{
+  padding: 0px;
+  margin:0px;
+  background-image: radial-gradient(#c7c7c7 25%,#c7c7c7 75%);
+  font-family:system-ui;
+}
+.top
+{
+  height: 1180px;
+  width: 880px;
+  background-color: white;
+  box-shadow: 15px 15px 15px 15px #b9b6b6;
+  margin: 20px auto;
+  font-size:  13px;
+
+}
+.top_section
+{
+  background-color: #151b29;
+  text-align: center;
+  padding:10%;
+}
+.sanjay
+{
+
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family:sans-serif;
+
+
+}
+img
+{
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 70px;
+}
+.skill
+{
+  color: white;
+}
+.third
+{
+  margin-top: 20px;
+}
+.big
+{
+  display:inline;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+.my
+{
+  font-weight: bold;
+  font-size: 30px;
+}
+.new
+{
+  font-weight:bold;
+  font-size: 20px;
+}
+@media(max-width: 500px)
+{
+  body{
+    padding: 0px;
+    margin:0px;
+    font-family:system-ui;
+    background-color: white;
+    margin: 0px;
+  }
+  .top
+  {
+    height: 1180px;
+    width: 400px;
+    background-color: white;
+
+    margin: 20px auto;
+    font-size:  13px;
+
+  }
+  .top_section
+  {
+    background-color: #151b29;
+    position: relative;
+    padding:10%;
+  }
+  .sanjay
+  {
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family:sans-serif;
+    text-align:  left;
+    margin: 0px;
+    position: relative;
+    right: 25px;
+    left: 10px;
+
+
+  }
+  img
+  {
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 70px;
+    position: relative;
+    right: 12px;
+  }
+  .skill
+  {
+    color: white;
+    position: absolute;
+    right: 140px;
+  }
+  .third
+  {
+    margin-top: 20px;
+  }
+  .big
+  {
+    display:inline;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+  .my
+  {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .new
+  {
+    font-weight:bold;
+    font-size: 20px;
+  }
+  .col-lg-6
+  {
+    background-color: white;
+  }
+}
